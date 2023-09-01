@@ -1,6 +1,6 @@
 # Cryptocurrency Sorter
 
-This project is an example developed using the Kotlin programming language. The project fetches cryptocurrency prices in terms of dollars and displays them in the user interface using a color palette to indicate price changes.
+This project is a developed using the Kotlin programming language. The project fetches cryptocurrency prices in terms of dollars and displays them in the user interface using a color palette to indicate price changes.
 
 ## Features
 
