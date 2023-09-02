@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity(),RecyclerViewAdapter.Listener {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-        //retrofit oluşturucuya base url verildi ve gson formatında bölmek iiçn gsonconverterfactroy çalıştırıdlı
+        //retrofit oluşturucuya base url verildi ve gson formatında bölmek için gsonconverterfactroy çalıştırıldı
         val service=retrofit.create(CryptoAPI::class.java) // api ile retrofiti birbirine bağlamak için
         val call=service.getData()
 
